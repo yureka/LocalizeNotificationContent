@@ -1,0 +1,14 @@
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "4BS-L8-e7h"; */
+"4BS-L8-e7h.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Localization of App"; ObjectID = "7mF-jM-Evn"; */
+"7mF-jM-Evn.text" = "Localization of App";
+
+/* Class = "UIButton"; normalTitle = "Chinese"; ObjectID = "FXy-9Y-PFX"; */
+"FXy-9Y-PFX.normalTitle" = "Chinese";
+
+/* Class = "UILabel"; text = "When you localize your app, people all over the world can view your content in the language they feel most comfortable reading."; ObjectID = "L2G-ne-X2E"; */
+"L2G-ne-X2E.text" = "When you localize your app, people all over the world can view your content in the language they feel most comfortable reading.";
+
+/* Class = "UIButton"; normalTitle = "Spanish"; ObjectID = "rc0-9m-S1b"; */
+"rc0-9m-S1b.normalTitle" = "Spanish";

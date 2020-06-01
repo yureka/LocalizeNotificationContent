@@ -1,0 +1,14 @@
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "4BS-L8-e7h"; */
+"4BS-L8-e7h.normalTitle" = "英语";
+
+/* Class = "UILabel"; text = "Localization of App"; ObjectID = "7mF-jM-Evn"; */
+"7mF-jM-Evn.text" = "应用本地化";
+
+/* Class = "UIButton"; normalTitle = "Chinese"; ObjectID = "FXy-9Y-PFX"; */
+"FXy-9Y-PFX.normalTitle" = "中文";
+
+/* Class = "UILabel"; text = "When you localize your app, people all over the world can view your content in the language they feel most comfortable reading."; ObjectID = "L2G-ne-X2E"; */
+"L2G-ne-X2E.text" = "当您对应用程序进行本地化时，世界各地的人们都可以使用最舒适的阅读语言来查看您的内容。";
+
+/* Class = "UIButton"; normalTitle = "Spanish"; ObjectID = "rc0-9m-S1b"; */
+"rc0-9m-S1b.normalTitle" = "西班牙文";
