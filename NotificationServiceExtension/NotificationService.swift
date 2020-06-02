@@ -20,6 +20,7 @@ class NotificationService: UNNotificationServiceExtension {
         if let bestAttemptContent = bestAttemptContent {
             // Modify the notification content here...
             bestAttemptContent.title = localized(value: bestAttemptContent.title)
+            bestAttemptContent.body = localized(value: bestAttemptContent.body)
             
             contentHandler(bestAttemptContent)
         }
@@ -34,7 +35,7 @@ class NotificationService: UNNotificationServiceExtension {
     }
     
     private var appLanguage: String {
-        if let userDefault = UserDefaults(suiteName: "group.localize") {
+        if let userDefault = UserDefaults(suiteName: "group.localized") {
             if let currentLang = userDefault.string(forKey: LanguageManagerKeys.selectedLanguage) {
                 return currentLang
             }

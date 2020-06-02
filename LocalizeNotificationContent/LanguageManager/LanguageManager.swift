@@ -17,10 +17,9 @@ public class LanguageManager {
     
     public static let shared: LanguageManager = LanguageManager()
     
-    let userDefault = UserDefaults(suiteName: "group.vcardia")
-    ///
-    /// The current language.
-    ///
+    // Shared UserDefaults created in app group
+    let userDefault = UserDefaults(suiteName: "group.localized")
+    
     public var currentLanguage: Language {
         get {
             guard let currentLang = userDefault?.string(forKey: LanguageManagerKeys.selectedLanguage) else {
@@ -33,11 +32,9 @@ public class LanguageManager {
         }
     }
     
-    ///
-    /// The default language that the app will run first time.
-    /// You need to set the `defaultLanguage` in the `AppDelegate`, specifically in
-    /// the first line inside `application(_:willFinishLaunchingWithOptions:)`.
-    ///
+    // The default language that the app will run first time.
+    // You need to set the `defaultLanguage` in the `AppDelegate`, specifically in
+    // the first line inside `application(_:willFinishLaunchingWithOptions:)`.
     public var defaultLanguage: Language {
         get {
             guard let defaultLanguage = userDefault?.string(forKey: LanguageManagerKeys.defaultLanguage) else {
@@ -76,10 +73,8 @@ public class LanguageManager {
         Bundle.swizzleLocalization()
     }
     
-    ///
-    /// The device language is different than the app language,
-    /// to get the app language use `currentLanguage`.
-    ///
+    // The device language is different than the app language,
+    // to get the app language use `currentLanguage`.
     public var deviceLanguage: Language? {
         get {
             guard let deviceLanguage = Bundle.main.preferredLocalizations.first else {
@@ -89,14 +84,14 @@ public class LanguageManager {
         }
     }
     
-    /// The diriction of the language.
+    // The direction of the language.
     public var isRightToLeft: Bool {
         get {
             return isLanguageRightToLeft(language: currentLanguage)
         }
     }
     
-    /// The app locale to use it in dates and currency.
+    // The app locale to use it in dates and currency.
     public var appLocale: Locale {
         get {
             return Locale(identifier: currentLanguage.rawValue)
@@ -145,7 +140,7 @@ public class LanguageManager {
     }
     
     private func changePreference(_ language: Language) {
-        // change the dircation of the views
+        // change the direction of the views
         let semanticContentAttribute: UISemanticContentAttribute = isLanguageRightToLeft(language: language) ? .forceRightToLeft : .forceLeftToRight
         UIView.appearance().semanticContentAttribute = semanticContentAttribute
     }
@@ -212,9 +207,7 @@ public class LanguageManager {
         }
         return false
     }
-    
 }
-
 
 // MARK: - Swizzling
 fileprivate extension UIView {

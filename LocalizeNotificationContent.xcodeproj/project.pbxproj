@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65249903FF3D5D9B531B5F23 /* Pods_LocalizeNotificationContentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1C9FADA9C150C1DD3477B1 /* Pods_LocalizeNotificationContentTests.framework */; };
+		67E9FC78DF646ED84813E0E0 /* Pods_LocalizeNotificationContent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512E28AB507B94CE46FA034D /* Pods_LocalizeNotificationContent.framework */; };
+		7C449B542486A42500691C1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C449B532486A42500691C1D /* GoogleService-Info.plist */; };
 		7C696E0724814F6F00F845AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C696E0624814F6F00F845AD /* AppDelegate.swift */; };
 		7C696E0924814F6F00F845AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C696E0824814F6F00F845AD /* SceneDelegate.swift */; };
 		7C696E0E24814F6F00F845AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C696E0C24814F6F00F845AD /* Main.storyboard */; };
@@ -25,6 +28,8 @@
 		7CF353C62482247200E22612 /* LanguageManagerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF353BF248221E600E22612 /* LanguageManagerModels.swift */; };
 		7CF353D5248415C800E22612 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF353D7248415C800E22612 /* Localizable.strings */; };
 		7CF353DA2484161F00E22612 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF353D7248415C800E22612 /* Localizable.strings */; };
+		876081872061DE8377C4DA2E /* Pods_LocalizeNotificationContent_LocalizeNotificationContentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF9ED287AF634E5F26CDAF2 /* Pods_LocalizeNotificationContent_LocalizeNotificationContentUITests.framework */; };
+		EBCA48B3C9D9A9646E678D37 /* Pods_NotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FA5FE095346AD90FD6FF17 /* Pods_NotificationServiceExtension.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		066553ACE137488D3AF42C12 /* Pods-LocalizeNotificationContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizeNotificationContent.debug.xcconfig"; path = "Target Support Files/Pods-LocalizeNotificationContent/Pods-LocalizeNotificationContent.debug.xcconfig"; sourceTree = "<group>"; };
+		124B22F47061151CA65AF280 /* Pods-LocalizeNotificationContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizeNotificationContent.release.xcconfig"; path = "Target Support Files/Pods-LocalizeNotificationContent/Pods-LocalizeNotificationContent.release.xcconfig"; sourceTree = "<group>"; };
+		29FA5FE095346AD90FD6FF17 /* Pods_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1C9FADA9C150C1DD3477B1 /* Pods_LocalizeNotificationContentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizeNotificationContentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512E28AB507B94CE46FA034D /* Pods_LocalizeNotificationContent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizeNotificationContent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59CBC83490D4FEAC2DEB9F6A /* Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.release.xcconfig"; path = "Target Support Files/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C449B532486A42500691C1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7C696E0324814F6F00F845AD /* LocalizeNotificationContent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizeNotificationContent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C696E0624814F6F00F845AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C696E0824814F6F00F845AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +110,12 @@
 		7CF353D6248415C800E22612 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7CF353D8248415CB00E22612 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		7CF353D9248415CD00E22612 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8F6E7B2995B9A2A16E3C6616 /* Pods-LocalizeNotificationContentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizeNotificationContentTests.debug.xcconfig"; path = "Target Support Files/Pods-LocalizeNotificationContentTests/Pods-LocalizeNotificationContentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97979B131CE06651598DE670 /* Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.debug.xcconfig"; path = "Target Support Files/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF9ED287AF634E5F26CDAF2 /* Pods_LocalizeNotificationContent_LocalizeNotificationContentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalizeNotificationContent_LocalizeNotificationContentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B05B9B4706293170BACEDDFB /* Pods-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		DC3B27741ABC2EB94B4FC8FB /* Pods-LocalizeNotificationContentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizeNotificationContentTests.release.xcconfig"; path = "Target Support Files/Pods-LocalizeNotificationContentTests/Pods-LocalizeNotificationContentTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE1C108E712833EE47D4B417 /* Pods-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67E9FC78DF646ED84813E0E0 /* Pods_LocalizeNotificationContent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65249903FF3D5D9B531B5F23 /* Pods_LocalizeNotificationContentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876081872061DE8377C4DA2E /* Pods_LocalizeNotificationContent_LocalizeNotificationContentUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,20 +147,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCA48B3C9D9A9646E678D37 /* Pods_NotificationServiceExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		097DAA8DCE2F36B8ACBEDF98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				066553ACE137488D3AF42C12 /* Pods-LocalizeNotificationContent.debug.xcconfig */,
+				124B22F47061151CA65AF280 /* Pods-LocalizeNotificationContent.release.xcconfig */,
+				97979B131CE06651598DE670 /* Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.debug.xcconfig */,
+				59CBC83490D4FEAC2DEB9F6A /* Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.release.xcconfig */,
+				8F6E7B2995B9A2A16E3C6616 /* Pods-LocalizeNotificationContentTests.debug.xcconfig */,
+				DC3B27741ABC2EB94B4FC8FB /* Pods-LocalizeNotificationContentTests.release.xcconfig */,
+				FE1C108E712833EE47D4B417 /* Pods-NotificationServiceExtension.debug.xcconfig */,
+				B05B9B4706293170BACEDDFB /* Pods-NotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7C696DFA24814F6F00F845AD = {
 			isa = PBXGroup;
 			children = (
 				7C696E0524814F6F00F845AD /* LocalizeNotificationContent */,
+				7C449B532486A42500691C1D /* GoogleService-Info.plist */,
 				7C696E1C24814F7300F845AD /* LocalizeNotificationContentTests */,
 				7C696E2724814F7300F845AD /* LocalizeNotificationContentUITests */,
 				7C696E4B2481518900F845AD /* NotificationServiceExtension */,
 				7C696E0424814F6F00F845AD /* Products */,
+				097DAA8DCE2F36B8ACBEDF98 /* Pods */,
+				889C9DF84963D06888A46F22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -226,6 +266,17 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		889C9DF84963D06888A46F22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512E28AB507B94CE46FA034D /* Pods_LocalizeNotificationContent.framework */,
+				9FF9ED287AF634E5F26CDAF2 /* Pods_LocalizeNotificationContent_LocalizeNotificationContentUITests.framework */,
+				2B1C9FADA9C150C1DD3477B1 /* Pods_LocalizeNotificationContentTests.framework */,
+				29FA5FE095346AD90FD6FF17 /* Pods_NotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,10 +284,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C696E2D24814F7300F845AD /* Build configuration list for PBXNativeTarget "LocalizeNotificationContent" */;
 			buildPhases = (
+				1AE65530E3173E988E2E9EE5 /* [CP] Check Pods Manifest.lock */,
 				7C696DFF24814F6F00F845AD /* Sources */,
 				7C696E0024814F6F00F845AD /* Frameworks */,
 				7C696E0124814F6F00F845AD /* Resources */,
 				7C696E452481513700F845AD /* Embed App Extensions */,
+				0B84FF7B5072502F2F0465B0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +305,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C696E3024814F7300F845AD /* Build configuration list for PBXNativeTarget "LocalizeNotificationContentTests" */;
 			buildPhases = (
+				B7358B74ED77BE67049BD7FE /* [CP] Check Pods Manifest.lock */,
 				7C696E1524814F7300F845AD /* Sources */,
 				7C696E1624814F7300F845AD /* Frameworks */,
 				7C696E1724814F7300F845AD /* Resources */,
@@ -270,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C696E3324814F7300F845AD /* Build configuration list for PBXNativeTarget "LocalizeNotificationContentUITests" */;
 			buildPhases = (
+				419D3B0FD53D9233167C3689 /* [CP] Check Pods Manifest.lock */,
 				7C696E2024814F7300F845AD /* Sources */,
 				7C696E2124814F7300F845AD /* Frameworks */,
 				7C696E2224814F7300F845AD /* Resources */,
+				C32512A96AFB047B91AB707C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +344,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C696E522481518900F845AD /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
 			buildPhases = (
+				8AD5C67CC90C57C04AD63A33 /* [CP] Check Pods Manifest.lock */,
 				7C696E462481518800F845AD /* Sources */,
 				7C696E472481518800F845AD /* Frameworks */,
 				7C696E482481518800F845AD /* Resources */,
@@ -357,6 +414,7 @@
 			files = (
 				7C696E1324814F7300F845AD /* LaunchScreen.storyboard in Resources */,
 				7CF353D5248415C800E22612 /* Localizable.strings in Resources */,
+				7C449B542486A42500691C1D /* GoogleService-Info.plist in Resources */,
 				7C696E1024814F7300F845AD /* Assets.xcassets in Resources */,
 				7C696E0E24814F6F00F845AD /* Main.storyboard in Resources */,
 			);
@@ -385,6 +443,131 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B84FF7B5072502F2F0465B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalizeNotificationContent/Pods-LocalizeNotificationContent-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalizeNotificationContent/Pods-LocalizeNotificationContent-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalizeNotificationContent/Pods-LocalizeNotificationContent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AE65530E3173E988E2E9EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalizeNotificationContent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		419D3B0FD53D9233167C3689 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AD5C67CC90C57C04AD63A33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7358B74ED77BE67049BD7FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocalizeNotificationContentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32512A96AFB047B91AB707C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests/Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C696DFF24814F6F00F845AD /* Sources */ = {
@@ -601,18 +784,19 @@
 		};
 		7C696E2E24814F7300F845AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066553ACE137488D3AF42C12 /* Pods-LocalizeNotificationContent.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LocalizeNotificationContent/LocalizeNotificationContent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G527DLZLQB;
+				DEVELOPMENT_TEAM = 4L4N8H2FD4;
 				INFOPLIST_FILE = LocalizeNotificationContent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yureka.LocalizeNotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tricog.LocalizeNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,18 +805,19 @@
 		};
 		7C696E2F24814F7300F845AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124B22F47061151CA65AF280 /* Pods-LocalizeNotificationContent.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LocalizeNotificationContent/LocalizeNotificationContent.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G527DLZLQB;
+				DEVELOPMENT_TEAM = 4L4N8H2FD4;
 				INFOPLIST_FILE = LocalizeNotificationContent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yureka.LocalizeNotificationContent;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tricog.LocalizeNotificationContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -641,6 +826,7 @@
 		};
 		7C696E3124814F7300F845AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F6E7B2995B9A2A16E3C6616 /* Pods-LocalizeNotificationContentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -663,6 +849,7 @@
 		};
 		7C696E3224814F7300F845AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3B27741ABC2EB94B4FC8FB /* Pods-LocalizeNotificationContentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -685,6 +872,7 @@
 		};
 		7C696E3424814F7300F845AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97979B131CE06651598DE670 /* Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -705,6 +893,7 @@
 		};
 		7C696E3524814F7300F845AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CBC83490D4FEAC2DEB9F6A /* Pods-LocalizeNotificationContent-LocalizeNotificationContentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -725,18 +914,21 @@
 		};
 		7C696E532481518900F845AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE1C108E712833EE47D4B417 /* Pods-NotificationServiceExtension.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G527DLZLQB;
+				DEVELOPMENT_TEAM = 4L4N8H2FD4;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yureka.LocalizeNotificationContent.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tricog.LocalizeNotificationContent.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -745,18 +937,21 @@
 		};
 		7C696E542481518900F845AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05B9B4706293170BACEDDFB /* Pods-NotificationServiceExtension.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = NotificationServiceExtension/NotificationServiceExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G527DLZLQB;
+				DEVELOPMENT_TEAM = 4L4N8H2FD4;
 				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yureka.LocalizeNotificationContent.NotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tricog.LocalizeNotificationContent.NotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
