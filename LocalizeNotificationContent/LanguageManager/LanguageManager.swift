@@ -127,6 +127,8 @@ public class LanguageManager {
                 return
             }
             
+            setAppleLanguagePref(with: language)
+            
             let windowsToChange = getWindowsToChangeFrom(windows)
             
             windowsToChange?.forEach({ windowAndTitle in
