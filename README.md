@@ -1,7 +1,7 @@
 # LocalizeNotificationContent
 Localizing iOS notification content based on your application language or device language.
 
-
+![](localize_images.png)
 
 ## Features
 1. Capability for Remote Notification receiving through FCM.
@@ -30,4 +30,9 @@ Notification Service Extension
 6. Save current app language or device language in the shared UserDefaults.
 7. Use Notification Service Extension to localize the notification message before shown to the user.
 
-Please checkout my post here for reference.
+Please checkout my post [here](https://medium.com/@yureka_81375/localizing-ios-notification-content-based-on-your-application-language-or-device-language-4cb63f3a65fd) for your reference.
+
+## Support
+  - Twitter [@YurekaUnique](https://twitter.com/YurekaUnique)
+  - LinkedIn [yurekamr](https://www.linkedin.com/in/yurekamr)
+  - Medium [@yureka_81375](https://medium.com/@yureka_81375)
